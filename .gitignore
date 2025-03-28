@@ -76,3 +76,15 @@ crashlytics-build.properties
 # General
 .vsconfig
 debug.log
+obj/
+[Ll]ibrary/
+
+
+
+# Ignore everything inside the Assets folder
+Assets/*
+
+# Include specific folders
+!Assets/Scripts/
+!Assets/Scenes/
+!Assets/Animation/
